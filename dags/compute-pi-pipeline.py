@@ -20,7 +20,7 @@ default_dag_args = {
     # If a task fails, retry it once after waiting at least 5 minutes
     'retries': 1,
     'retry_delay': datetime.timedelta(minutes=5),
-    'project_id': 'bipin-dev'
+    'project_id': os.environ['PROJECT_ID']
 }
 
 pipeline_cluster_name = 'cluster-2-compute-pi-{{ ds_nodash }}'
