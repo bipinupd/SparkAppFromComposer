@@ -70,4 +70,4 @@ gsutil cp dags/calculate-pi.py gs://$COMPOSER_BUCKET/data/$PIPELINE_NAME/
 
 The DAG (Graph view) is shown below.
 
-!(DAG Graph View)[./docs/graph_view.jpg]
+![DAG Graph View](./docs/graph_view.jpg)
